@@ -3,9 +3,9 @@
 import argparse
 import os
 
-import d3.model.tools as mt
+import obj2stl.model.tools as mt
 import functools as fc
-from d3.model.basemodel import Vector
+from obj2stl.model.basemodel import Vector
 
 def check_path(path, should_exist):
     """ Check that a path (file or folder) exists or not and return it.

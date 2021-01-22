@@ -10,7 +10,7 @@ AUTHOR_EMAIL = 'alzaidy.abdullah@gmail.com'
 URL = 'https://github.com/you/your_package'
 
 LICENSE = 'Apache License 2.0'
-DESCRIPTION = 'Describe your package in one sentence'
+DESCRIPTION = 'imple and lightweight 3D model format converter from obj to stl'
 LONG_DESCRIPTION = (HERE / "README.md").read_text()
 LONG_DESC_TYPE = "text/markdown"
 
