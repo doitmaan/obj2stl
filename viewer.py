@@ -36,12 +36,12 @@ if len(missing_dependencies) > 0:
     for dep in missing_dependencies:
         print(dep, file=sys.stderr)
 
-from d3.model.tools import load_model
-from d3.geometry import Vector
-from d3.controls import TrackBallControls, OrbitControls
-from d3.camera import Camera
-from d3.shader import Shader
-from d3.model.basemodel import BoundingBox
+from obj2stl.model.tools import load_model
+from obj2stl.geometry import Vector
+from obj2stl.controls import TrackBallControls, OrbitControls
+from obj2stl.camera import Camera
+from obj2stl.shader import Shader
+from obj2stl.model.basemodel import BoundingBox
 
 WINDOW_WIDTH = 1024
 WINDOW_HEIGHT = 1024
